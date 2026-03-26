@@ -100,10 +100,10 @@
 \separatorcolumn
 
 \begin{column}{\colwidth}
-\begin{block}{Introduction}
+\begin{block}{INTRODUCTION}
     
 
-  \section{DAOS Storage System}
+  \heading{DAOS Storage System}
 
     Distributed Asynchronous Object Storage (DAOS) is a high performance storage 
     system using key-array-value store allowing end-to-end user space operation, 
@@ -144,15 +144,12 @@
 
     \begin{figure} 
       \centering
-        \includegraphics[width=\colwidth]{diagrams/daos_arch_recolored.pdf}
+        \includegraphics[width=\dimexpr 7\colwidth/8\relax]{diagrams/daos_arch_recolored.pdf}
         \label{fig:posix}
       \caption{DAOS storage system architecture \cite{xmei_sc24}}
     \end{figure}
-    
 
-  \end{block}
-
-  \begin{block}{Aurora} 
+  \heading{Aurora} 
 
     % \begin{figure}
     %   \centering
@@ -180,7 +177,7 @@
 \begin{column}{\colwidth}
 
 
-  \begin{block}{Benchmarking}
+  \begin{block}{METHODOLOGY}
     We evaluated this storage system using the fio, IOR, mdtest, and IO500 I/O benchmarks. 
     We aim to characterize the I/O and metadata performance bottlenecks under a 
     variety of access patterns and client configurations on a production scale system.
@@ -363,15 +360,22 @@
     
  
   \end{block}
+
+\begin{block}{CONCLUSION} 
+    \begin{itemize}
+      \item \textbf{aaa}
+      \item bbb
+    \end{itemize}
+
+\end{block}
+
+
+\begin{block}{References} 
+\nocite{*}
+\tiny{\bibliographystyle{plainnat}\bibliography{poster}}
+\end{block}
+
   
-
-  \begin{block}{References} 
-
-    \nocite{*}
-    \footnotesize{\bibliographystyle{plainnat}\bibliography{poster}}
- 
-  \end{block}
-
 \end{column}
 
 \separatorcolumn
